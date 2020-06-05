@@ -1,18 +1,19 @@
 {
-    "name": "embla-carousel-dragfree",
-    "version": "1.0.0",
-    "description": "Embla Carousel - Options demonstration.",
-    "main": "index.html",
-    "scripts": {
-      "start": "parcel index.html --open",
-      "build": "parcel build index.html"
-    },
-    "dependencies": {
-      "embla-carousel": "2.6.6"
-    },
-    "devDependencies": {
-      "@babel/core": "7.2.0",
-      "parcel-bundler": "^1.6.1"
-    },
-    "keywords": []
-  }
+  "name": "embla-carousel-dragfree",
+  "version": "1.0.0",
+  "description": "Embla Carousel - Options demonstration.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "embla-carousel": "2.6.6",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
