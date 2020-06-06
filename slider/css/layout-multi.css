@@ -281,7 +281,7 @@ body {
 	padding: 1.8em;
 	width: 100%;
 	font-size: 1.15em;
-	
+	max-height: 100vh
 }
 
 .intro__title {
