@@ -298,16 +298,18 @@ body {
 	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
-	color: gray;
-	background-color:rgb(65, 62, 62);
-	border-radius:20px 50px 40px 10px;
-	padding:5px;
+	color: black;
+	background-color: white;
+	border-radius:25px;
+	padding:10px;
+	margin-right: 50px;
+	
 }
 
 .intro__description {
 	margin: 0 auto 0 1em;
 	line-height: 1.2;
-	color: gray;
+	color: black;
 }
 
 /* Trigger button with SVG */
@@ -336,8 +338,7 @@ body {
 	transform-origin: 50% 50%;
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
-
-	stroke: #dbdbdb;
+	stroke: black;
 	fill: none;
 	stroke-width: 2px;
 }
@@ -437,7 +438,7 @@ body {
 
 /* Color schemes */
 .theme-1 a {
-	color: #eeeef0;
+	color: black;
 }
 
 .theme-1,
@@ -451,7 +452,7 @@ body {
 }
 
 .theme-2 a {
-	color: #f7f6f5;;
+	color: black;
 }
 
 .theme-2,
@@ -472,6 +473,9 @@ body {
 		flex: 1 0 33.333%;
 		height: 30vw;
 	}
+	.intro__image {
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -484,6 +488,9 @@ body {
 	.intro__content {
 		font-size: 0.85em;
 	}
+	.intro__image {
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 590px) {
@@ -495,5 +502,8 @@ body {
 
 	.intro__title {
 		font-size: 2em;
+	}
+	.intro__image {
+		max-width: 100%;
 	}
 }
