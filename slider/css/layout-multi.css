@@ -281,6 +281,7 @@ body {
 	padding: 1.8em;
 	width: 100%;
 	font-size: 1.15em;
+	
 }
 
 .intro__title {
@@ -517,20 +518,20 @@ body {
 	}
 
 	.intro__title {
-		font-size: 2.7em;
+		font-size: 2.2em;
 	}
 	
 	.intro__image {
 		width: vw;
 		height: vh;
 		min-width: vw;
-		top:10em;
+		top:12em;
 	}
 	.intro__subtitle{
 		width: vw;
 		height: vh;
 		padding-right: 0;
-		bottom: 3em	
+		bottom: 8em	
 	}
 
 }
