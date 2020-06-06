@@ -529,7 +529,8 @@ body {
 	.intro__subtitle{
 		width: vw;
 		height: vh;
-		padding-right: 0;	
+		padding-right: 0;
+		bottom: 3em	
 	}
 
 }
