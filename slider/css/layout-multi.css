@@ -38,7 +38,8 @@ body {
 	position: relative;
 	display: block;
 	margin-right: 20px;
-	border: 2px solid #fff;
+	border: 2px solid
+	border-color: none;
 	border-radius: 50%;
 	color: #fff;
 	outline-style:none;
@@ -83,7 +84,7 @@ body {
 	max-height: 100vh;
 	opacity: 0;
 	pointer-events: none;
-	outline-style:none;
+	
 }
 
 .container {
