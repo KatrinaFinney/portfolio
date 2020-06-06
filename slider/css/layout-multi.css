@@ -72,6 +72,7 @@ body {
 .container,
 .container::after {
 	position: absolute; 
+	overflow: auto;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -279,7 +280,6 @@ body {
 .intro__content {
 	position: absolute;
 	bottom: 0;
-	padding: 1.8em;
 	width: 100%;
 	font-size: 1.15em;
 	max-height: 100vh
@@ -292,6 +292,7 @@ body {
 	font-family: "Playfair Display", Georgia, serif;
 	line-height: 1;
 	color: white;
+	
 }
 
 .intro__subtitle {
@@ -303,7 +304,9 @@ body {
 	background-color: white;
 	border-radius:25px;
 	padding:20px;
-	margin-right: 50px;
+	margin-left:1em;
+	margin-right: 2em;
+	bottom: 0;
 	
 }
 
@@ -476,7 +479,10 @@ body {
 .theme-3 .intro {
 	background: #e0bb91;
 }
-
+.theme-3 .intro__title{
+	color: rgb(192, 122, 86);
+	
+}
 .theme-3 .item {
 	border-color: #21241f;
 	background: #74834f;
@@ -546,16 +552,13 @@ body {
 	
 	.intro__image {
 		width: vw;
-		height: vh;
+		
 		min-width: vw;
 		top:15em;
 		bottom: 7em;
 	}
-	.intro__subtitle{
-		width: vw;
-		height: vh;
-		padding-right: 0;
-		bottom: 8em	
+	.intro__content{
+		top: 28.5em;
 	}
 	
 
