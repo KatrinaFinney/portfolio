@@ -38,10 +38,13 @@ body {
 	position: relative;
 	display: block;
 	margin-right: 20px;
-	border: 2px solid
+	border: 2px solid #fff;
 	border-color: none;
 	border-radius: 50%;
 	color: #fff;
+	
+}
+.thumb-nav__item:focus {
 	outline-style:none;
 }
 
@@ -236,7 +239,7 @@ body {
 
 .intro {
 	position: fixed;
-	z-index: 2;
+	z-index: 10;
 	overflow: hidden;
 	width: 100%;
 	height: 100vh;
@@ -262,10 +265,9 @@ body {
 /* Fullscreen image */
 .intro__image {
 	position: absolute;
-	
 	bottom: 0;
 	max-width: 100%;
-	opacity: 0.9;
+	opacity: 0.8;
 	width: auto;
 	height: auto;
 	-webkit-transform: translate3d(0, 0, 0);
@@ -286,13 +288,15 @@ body {
 .intro__content {
 	position: absolute;
 	bottom: 0;
+	
 	width: 100%;
 	font-size: 1.15em;
-	max-height: 100vh
+	max-height: 100vh;
+	
 }
 
 .intro__title {
-	margin: 0 0 20px;
+	margin: 20px;
 	font-weight: 900;
 	font-size: 3.7em;
 	font-family: "Playfair Display", Georgia, serif;
@@ -463,6 +467,9 @@ body {
 	background: #f7f6f5;
 	
 }
+.theme-2 .intro__title{
+	color: rgb(1, 114, 226)
+}
 
 .theme-2 a {
 	color: rgb(39, 145, 245);
@@ -486,7 +493,7 @@ body {
 	background: #e0bb91;
 }
 .theme-3 .intro__title{
-	color: rgb(192, 122, 86);
+	color: rgb(129, 61, 27);
 	
 }
 .theme-3 .item {
@@ -516,6 +523,7 @@ body {
 	}
 	.intro__title{
 		font-size: 2em;
+	
 	}
 	
 }
@@ -558,7 +566,6 @@ body {
 	
 	.intro__image {
 		width: vw;
-		
 		min-width: vw;
 		top:15em;
 		bottom: 7em;
