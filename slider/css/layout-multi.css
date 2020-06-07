@@ -302,6 +302,7 @@ body {
 	font-family: "Playfair Display", Georgia, serif;
 	line-height: 1;
 	color: white;
+	text-align: center;
 	
 }
 
@@ -470,7 +471,9 @@ body {
 .theme-2 .intro__title{
 	color: rgb(1, 114, 226)
 }
-
+.theme-2 .intro__image{
+	opacity: 0.6;
+}
 .theme-2 a {
 	color: rgb(39, 145, 245);
 }
