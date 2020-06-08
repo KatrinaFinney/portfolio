@@ -514,6 +514,7 @@ body {
 .theme-3,
 .theme-3 .intro {
 	background: #e0bb91;
+	opacity: .9.5;
 }
 .theme-3 .intro__title{
 	color: rgb(129, 61, 27);
