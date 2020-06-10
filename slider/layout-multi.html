@@ -10,10 +10,10 @@
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
 		<link rel="stylesheet" type="text/css" href="css/layout-multi.css" />
 		<script src="js/modernizr.custom.js"></script>
-		<script src="https://kit.fontawesome.com/2f43f5ec09.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/2f43f5ec09.js" crossorigin="anonymous" SameSite=None ></script>
 	</head>
 	<body>
 		<svg class="hidden">
@@ -53,28 +53,11 @@
 								
 							</div>
 						</div>
-						<button class="trigger">
-							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
-								<use class="icon icon--grid" xlink:href="#icon-grid" />
-								<use class="icon icon--cross" xlink:href="#icon-cross" />
-							</svg>
-							<span>Toggle content</span>
-						</button>
+						
 					</div>
 				</div><!-- /intro__content -->
 			</header><!-- /intro -->
-			<section class="items-wrap">
-				<a href="https://pedantic-shockley-926cba.netlify.app" class="item">
-					<img class="item__image" src="../images/prana2.PNG" alt="item01"/>
-				
-				</a>
-				<a href="https://pedantic-shockley-926cba.netlify.app" class="item">
-					<img class="item__image" src="../images/prana3.PNG" alt="item02"/>
-					
-				</a>
-				
-				
-			</section>
+			
 			
 		</div><!-- /container -->
 		<div id="container-2" class="container theme-2">
@@ -90,25 +73,10 @@
 				
 							
 						</div>
-						<button class="trigger">
-							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
-								<use class="icon icon--grid" xlink:href="#icon-grid" />
-								<use class="icon icon--cross" xlink:href="#icon-cross" />
-							</svg>
-							<span>Toggle content</span>
-						</button>
+						
 					</div>
 				</div><!-- /intro__content -->
 			</header><!-- /intro -->
-			<section class="items-wrap">
-				<a href="https://keen-leavitt-1c511f.netlify.app/" class="item">
-					<img class="item__image" src="../images/Chat3.PNG" alt="item01"/>
-				</a>
-				<a href="https://keen-leavitt-1c511f.netlify.app/" class="item">
-					<img class="item__image" src="../images/Chat4.PNG" alt="item02"/>
-				</a>
-				
-			</section>
 			
 		</div><!-- /container -->
 		<div id="container-3" class="container theme-3">
@@ -123,28 +91,12 @@
 										A simple, easy to use way to give feedback! Building this project gave me the chance to use Python, Flask, Heroku, and Postgres for the very first time. <a class="demos__item demos__item--current" href="https://portfoliofeedback.herokuapp.com/">Leave feedback about my portfolio</a> or <a class="demos__item" href="https://github.com/KatrinaFinney/pythonfeedbackapp">see the code</a>.
 							
 									</div>
-						<button class="trigger">
-							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
-								<use class="icon icon--grid" xlink:href="#icon-grid" />
-								<use class="icon icon--cross" xlink:href="#icon-cross" />
-							</svg>
-							<span>Toggle content</span>
-						</button>
+				
 					</div>
 					
 				</div><!-- /intro__content -->
 			</header><!-- /intro -->
-			<section class="items-wrap">
-				<a href="https://portfoliofeedback.herokuapp.com/" class="item">
-					<img class="item__image" src="../images/Chat3.PNG" alt="item01"/>
-				</a>
-				<a href="https://portfoliofeedback.herokuapp.com/" class="item">
-					<img class="item__image" src="../images/Chat4.PNG" alt="item02"/>
-				</a>
-				
-				
-				
-			</section>
+			
 			
 		</div><!-- /container -->
 		<script src="js/classie.js"></script>
@@ -197,11 +149,7 @@
 					} );
 
 					// open each container's content area when clicking on the respective trigger button
-					containers.forEach( function( container ) {
-						container.querySelector( 'button.trigger' ).addEventListener( 'click', function() {
-							toggleContent( container, this );
-						} );
-					} );
+				
 
 					// keyboard navigation events
 					document.addEventListener( 'keydown', function( ev ) {
