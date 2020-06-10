@@ -777,6 +777,7 @@ input, select, textarea {
 		}
 		.top-left-container .button {
 			width: 55%;
+			position: relative;
 			justify-content: center;
 			margin: 0 auto;
 			text-align: center;
@@ -789,10 +790,16 @@ input, select, textarea {
 		}
 		.top-left-container a{
 			margin: 0 auto;
+			position:absolute;
 			text-align: center;
 			font-family: 'Open Sans', sans-serif;
 		}
-		
+		@media screen and (max-width: 480px) {
+			.top-left-container .button{
+				width: 95%;
+				
+			}
+		}
 		.projectImage img{
 			max-width:90%;
 			margin-left: 2rem;
@@ -1313,6 +1320,7 @@ input, select, textarea {
 			#wrapper {
 				padding: 1rem;
 			}
+
 
 		}
 
