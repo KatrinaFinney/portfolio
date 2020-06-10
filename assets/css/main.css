@@ -794,6 +794,14 @@ input, select, textarea {
 			text-align: center;
 			font-family: 'Bentham', sans-serif;
 		}
+		#resume .button {
+			
+			text-align: center;
+			border: 1px solid white;
+			background-color: rgb(73, 73, 73);
+			font-size: 1em;
+			
+		}
 		@media screen and (max-width: 480px) {
 			.top-left-container .button{
 				width: 95%;
