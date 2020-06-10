@@ -92,7 +92,7 @@ body {
 
 .container {
 	z-index: 1;
-	overflow: auto;
+	overflow: hidden;
 	background: #e0bb91;
 	-webkit-transform-origin: 50% 120%;
 	transform-origin: 50% 120%;
@@ -260,6 +260,7 @@ body {
 .container--open .intro {
 	-webkit-transform: translate3d(0, -100%, 0) translate3d(0, 250px, 0);
 	transform: translate3d(0, -100%, 0) translate3d(0, 250px, 0);
+	
 }
 
 /* Fullscreen image */
@@ -267,6 +268,7 @@ body {
 	position: absolute;
 	bottom: 0;
 	max-width: 100%;
+	
 	opacity: 0.8;
 	width: auto;
 	height: auto;
