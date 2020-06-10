@@ -606,6 +606,12 @@ body {
 		top: 34em;
 		margin-left:.5em;
 	}
-
+	.thumb-nav__item span {
+		margin: 0 auto;
+	}
+	.thumb-nav {
+		margin: 0 auto;
+		left:1em;
+	}
 
 }
