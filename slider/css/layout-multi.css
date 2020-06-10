@@ -606,6 +606,8 @@ body {
 		top: 34em;
 		margin-left:.5em;
 	}
-
+	.thumb-nav{
+		margin-left:1em;
+	}
 
 }
