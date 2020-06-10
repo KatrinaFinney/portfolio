@@ -101,7 +101,7 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
-		cursor: url('../../images/cursor.png'), pointer; 
+		cursor: default; 
 	}
 
 	body {
