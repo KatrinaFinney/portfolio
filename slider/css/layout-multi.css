@@ -324,7 +324,7 @@ body {
 }
 
 .intro__description {
-	margin: 0 auto 0 1em;
+	margin: 1em;
 	line-height: 1.2;
 	color: black;
 	padding: .7em

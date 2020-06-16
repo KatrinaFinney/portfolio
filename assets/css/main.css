@@ -331,7 +331,7 @@ input, select, textarea {
 /* Form */
 
 	form {
-		margin: 0 0 2rem 0;
+		margin: 0 auto;
 	}
 
 		form > :last-child {
@@ -375,7 +375,7 @@ input, select, textarea {
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375rem);
 				}
-
+	
 		@media screen and (max-width: 480px) {
 
 			form > .fields {
@@ -994,11 +994,14 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin: 0 auto;
+		display:flex;
 	}
 
 		ul.icons li {
-			display: inline-block;
+			
 			padding: 0 0.75em 0 0;
+			margin: 0 auto;
 		}
 
 			ul.icons li:last-child {
